@@ -165,6 +165,22 @@ def make_excel(plan: list) -> BytesIO:
 # ── Streamlit App ──
 st.set_page_config(page_title="Family Meal Planner", page_icon="🥗", layout="wide")
 
+def check_password():
+    if st.session_state.get("authenticated"):
+        return True
+    pwd = st.text_input("Password", type="password", key="pwd_input")
+    if st.button("Enter"):
+        correct = os.getenv("APP_PASSWORD") or st.secrets.get("APP_PASSWORD", "")
+        if pwd == correct:
+            st.session_state.authenticated = True
+            st.rerun()
+        else:
+            st.error("Incorrect password.")
+    return False
+
+if not check_password():
+    st.stop()
+
 if "notes" not in st.session_state:
     st.session_state.notes = load_text(
         APP_DIR / "meal-plan-notes.md",
