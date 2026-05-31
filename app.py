@@ -140,16 +140,43 @@ def make_excel(plan: list) -> BytesIO:
         cell.alignment, cell.border = WRAP, THIN
         ws.column_dimensions[get_column_letter(col)].width = width
     ws.row_dimensions[1].height = 20
+    def parse_link(text):
+        if " | http" in text:
+            name, url = text.split(" | ", 1)
+            return name.strip(), url.strip()
+        return text, None
+
+    def apply_link(cell, url):
+        cell.hyperlink = url
+        cell.font = Font(color="0563C1", underline="single")
+
     for i, day in enumerate(plan):
         row  = i + 2
         fill = ALT_FILL if i % 2 == 0 else PLAIN_FILL
+        breakfast_text, breakfast_url = parse_link(day.get("breakfast", ""))
+        snack1_text,    snack1_url    = parse_link(day.get("snack1", ""))
+        snack2_text,    snack2_url    = parse_link(day.get("snack2", ""))
+        display = {
+            "day": day.get("day", ""),
+            "breakfast": breakfast_text,
+            "snack1": snack1_text,
+            "lunch": day.get("lunch", ""),
+            "snack2": snack2_text,
+            "dinner": day.get("dinner", ""),
+            "recipe_url": day.get("recipe_url", ""),
+        }
         for col, key in enumerate(["day", "breakfast", "snack1", "lunch", "snack2", "dinner", "recipe_url"], 1):
-            cell = ws.cell(row=row, column=col, value=day.get(key, ""))
+            cell = ws.cell(row=row, column=col, value=display[key])
             cell.fill, cell.alignment, cell.border = fill, WRAP, THIN
+        if breakfast_url:
+            apply_link(ws.cell(row=row, column=2), breakfast_url)
+        if snack1_url:
+            apply_link(ws.cell(row=row, column=3), snack1_url)
+        if snack2_url:
+            apply_link(ws.cell(row=row, column=5), snack2_url)
         url = day.get("recipe_url", "")
         if url:
-            ws.cell(row=row, column=7).hyperlink = url
-            ws.cell(row=row, column=7).font = Font(color="0563C1", underline="single")
+            apply_link(ws.cell(row=row, column=7), url)
         ws.row_dimensions[row].height = 60
     ws.page_setup.orientation  = "landscape"
     ws.page_setup.fitToPage    = True
