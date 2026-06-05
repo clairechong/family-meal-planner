@@ -9,6 +9,15 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Jun 1–7, 2026
+- Mon: Beef Stir Fry + Rice Noodles
+- Tue: Mediterranean Baked Chicken
+- Wed: Sheet Pan Salmon & Asparagus
+- Thu: Hearty Spaghetti with Lentils & Marinara
+- Fri: White Bean Soup + crusty bread
+- Sat: Crispy Baked Chicken Thighs + roasted asparagus + carrots
+- Sun: Thai Red Curry (tofu) + rice
+
 ### May 20–25, 2026 (Wed–Mon; started mid-week, used up yu choy + pumpkin puree; BBQ pork stays frozen)
 - Wed: Ginger Chicken Stir Fry + rice noodles + yu choy
 - Thu: One Pot Creamy Tomato Vegetable Pasta
