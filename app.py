@@ -141,7 +141,13 @@ When the user says to finalize, generate the Excel file, or is happy with the pl
 
 def clean_for_display(text: str) -> str:
     """Strip JSON plan blocks from text before showing to user."""
-    return re.sub(r'```json\s*\{.*?\}\s*```', '', text, flags=re.DOTALL).strip()
+    # Remove complete blocks first
+    text = re.sub(r'```json\s*\{.*?\}\s*```', '', text, flags=re.DOTALL)
+    # Hide partial block still being streamed
+    partial = text.find('```json')
+    if partial != -1:
+        text = text[:partial]
+    return text.strip()
 
 
 def extract_plan(text: str):
@@ -326,13 +332,6 @@ with st.sidebar:
         st.session_state.week_start    = week_start
         st.session_state.week_end      = week_end
         st.session_state.pending       = msg
-    st.divider()
-    with st.expander("📋 Recent dinners", expanded=False):
-        if history:
-            lines = history.strip().splitlines()
-            st.markdown('\n'.join(lines[-40:]))
-        else:
-            st.caption("No history file found.")
 
 st.title("Family Meal Planner")
 if not st.session_state.messages and not st.session_state.get("pending"):
