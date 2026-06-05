@@ -128,8 +128,8 @@ MEAL PLAN FORMAT:
 - Follow all family rules strictly (nut-free weekday snacks/lunches/dinners, child preferences, etc.)
 - Be conversational and easy to iterate with — keep responses concise
 
-FINALIZING:
-When the user says to finalize, generate the Excel file, or is happy with the plan, include this JSON block at the end of your response (it will be hidden from display):
+GENERATING EXCEL:
+When the user says to generate the Excel, generate the file, or is happy with the plan, include this JSON block at the end of your response (it will be hidden from display):
 
 ```json
 {{"plan": [
@@ -342,7 +342,7 @@ for msg in st.session_state.messages:
         st.markdown(clean_for_display(msg["content"]))
 
 pending    = st.session_state.pop("pending", None)
-user_input = pending or st.chat_input("Ask for changes, or say 'finalize' to get the Excel…")
+user_input = pending or st.chat_input("Ask for changes, or say 'generate Excel' when ready…")
 
 if user_input:
     if not get_api_key():
@@ -363,7 +363,7 @@ if user_input:
         plan = extract_plan(reply)
         if plan:
             st.session_state.plan_data = plan
-            st.success("Plan ready! Scroll down to download.", icon="✅")
+            st.success("Excel ready! Download below, then save to history when you're happy with it.", icon="✅")
     st.session_state.messages.append({"role": "assistant", "content": reply})
     st.rerun()
 
