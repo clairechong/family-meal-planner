@@ -10,9 +10,15 @@ from io import BytesIO
 import json
 import re
 import os
+import base64
+import requests
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# ── GitHub ──
+GITHUB_REPO   = "clairechong/family-meal-planner"
+HISTORY_PATH  = "meal_plan_history.md"
 
 # ── File paths ──
 APP_DIR     = Path(__file__).parent
@@ -46,6 +52,64 @@ def get_api_key():
         except Exception:
             pass
     return key
+
+
+def get_github_token():
+    token = os.getenv("GITHUB_TOKEN", "")
+    if not token:
+        try:
+            token = st.secrets["GITHUB_TOKEN"]
+        except Exception:
+            pass
+    return token
+
+
+def build_history_entry(plan: list, week_start: date, week_end: date) -> str:
+    if week_start.month == week_end.month:
+        header = f"{week_start.strftime('%b')} {week_start.day}–{week_end.day}, {week_end.year}"
+    else:
+        header = f"{week_start.strftime('%b')} {week_start.day}–{week_end.strftime('%b')} {week_end.day}, {week_end.year}"
+    lines = [f"### {header}"]
+    for day in plan:
+        day_abbr = day.get("day", "")[:3]
+        dinner = day.get("dinner", "")
+        if dinner:
+            lines.append(f"- {day_abbr}: {dinner}")
+    return "\n".join(lines)
+
+
+def save_history_to_github(new_entry: str) -> tuple[bool, str]:
+    token = get_github_token()
+    if not token:
+        return False, "No GITHUB_TOKEN found — add it to Streamlit secrets or .env."
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json",
+    }
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{HISTORY_PATH}"
+    resp = requests.get(url, headers=headers)
+    if resp.status_code != 200:
+        return False, f"Could not read history file from GitHub ({resp.status_code})."
+    data = resp.json()
+    current = base64.b64decode(data["content"]).decode("utf-8")
+    sha = data["sha"]
+    marker = "## History (most recent first)"
+    if marker in current:
+        before, after = current.split(marker, 1)
+        updated = before + marker + "\n\n" + new_entry + "\n" + after.lstrip("\n")
+    else:
+        updated = new_entry + "\n\n" + current
+    week_label = st.session_state.get("week_label", "new week")
+    payload = {
+        "message": f"Add dinner history for {week_label}",
+        "content": base64.b64encode(updated.encode("utf-8")).decode("utf-8"),
+        "sha": sha,
+    }
+    put_resp = requests.put(url, headers=headers, json=payload)
+    if put_resp.status_code in (200, 201):
+        st.session_state.history = updated
+        return True, "History saved to GitHub ✓"
+    return False, f"GitHub write failed ({put_resp.status_code})."
 
 
 def build_system_prompt(notes: str, history: str) -> str:
@@ -221,7 +285,7 @@ if "notes" not in st.session_state:
 
 notes, history = st.session_state.notes, st.session_state.history
 
-for key, default in [("messages", []), ("plan_data", None), ("week_label", "")]:
+for key, default in [("messages", []), ("plan_data", None), ("week_label", ""), ("history_saved", False)]:
     if key not in st.session_state:
         st.session_state[key] = default
 
@@ -255,10 +319,13 @@ with st.sidebar:
         msg = f"Please create a meal plan for the week of {week_str}."
         if parts:
             msg += f" Constraints: {'; '.join(parts)}."
-        st.session_state.messages  = []
-        st.session_state.plan_data = None
-        st.session_state.week_label = f"{week_start.strftime('%Y-%m-%d')}_to_{week_end.strftime('%m-%d')}"
-        st.session_state.pending   = msg
+        st.session_state.messages      = []
+        st.session_state.plan_data     = None
+        st.session_state.history_saved = False
+        st.session_state.week_label    = f"{week_start.strftime('%Y-%m-%d')}_to_{week_end.strftime('%m-%d')}"
+        st.session_state.week_start    = week_start
+        st.session_state.week_end      = week_end
+        st.session_state.pending       = msg
     st.divider()
     with st.expander("📋 Recent dinners", expanded=False):
         if history:
@@ -303,7 +370,7 @@ if user_input:
 
 if st.session_state.plan_data:
     st.divider()
-    col1, col2 = st.columns([2, 1])
+    col1, col2, col3 = st.columns([2, 1, 1])
     with col1:
         st.subheader("📊 Your meal plan is ready to download")
     with col2:
@@ -317,3 +384,21 @@ if st.session_state.plan_data:
             type="primary",
             use_container_width=True,
         )
+    with col3:
+        if st.session_state.history_saved:
+            st.success("Saved to history ✓")
+        elif get_github_token():
+            if st.button("💾 Save to History", use_container_width=True):
+                entry = build_history_entry(
+                    st.session_state.plan_data,
+                    st.session_state.get("week_start", date.today()),
+                    st.session_state.get("week_end", date.today()),
+                )
+                ok, msg = save_history_to_github(entry)
+                if ok:
+                    st.session_state.history_saved = True
+                    st.rerun()
+                else:
+                    st.error(msg)
+        else:
+            st.caption("Add GITHUB_TOKEN to secrets to enable auto-save.")
