@@ -9,6 +9,14 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Jun 8–14, 2026
+- Mon: Thai Red Curry (Tofu/Veg) + rice
+- Tue: Ginger Chicken Stir Fry + rice (uses celery + carrot)
+- Wed: Asian Glazed Salmon + rice + greens
+- Thu: Red Lentil Soup + crusty bread
+- Fri: Eating out
+- Sat: Oven Baked Chicken and Rice + steamed greens
+- Sun: Southwestern Beef Stew (Michael Smith)
 ### Jun 1–7, 2026
 - Mon: Beef Stir Fry + Rice Noodles ✓
 - Tue: Mediterranean Baked Chicken ⚠️ pain to make
