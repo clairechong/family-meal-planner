@@ -210,10 +210,24 @@ def make_excel(plan: list) -> BytesIO:
         cell.alignment, cell.border = WRAP, THIN
         ws.column_dimensions[get_column_letter(col)].width = width
     ws.row_dimensions[1].height = 20
+    def extract_url(text):
+        """Pull a bare URL out of 'Name | URL', '[name](url)', or a raw URL."""
+        m = re.search(r'\[.*?\]\((https?://[^\)]+)\)', text)
+        if m:
+            return m.group(1)
+        if " | http" in text:
+            return text.split(" | ", 1)[1].strip()
+        if text.strip().startswith("http"):
+            return text.strip()
+        return ""
+
     def parse_link(text):
         if " | http" in text:
             name, url = text.split(" | ", 1)
             return name.strip(), url.strip()
+        m = re.search(r'\[(.+?)\]\((https?://[^\)]+)\)', text)
+        if m:
+            return m.group(1), m.group(2)
         return text, None
 
     def apply_link(cell, url):
@@ -244,7 +258,7 @@ def make_excel(plan: list) -> BytesIO:
             apply_link(ws.cell(row=row, column=3), snack1_url)
         if snack2_url:
             apply_link(ws.cell(row=row, column=5), snack2_url)
-        url = day.get("recipe_url", "")
+        url = extract_url(day.get("recipe_url", ""))
         if url:
             apply_link(ws.cell(row=row, column=7), url)
         ws.row_dimensions[row].height = 60
