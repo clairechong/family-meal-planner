@@ -17,12 +17,15 @@
 
 ## Child Preferences
 - Likes: stir fries, pasta, rice dishes, baked chicken, eggs, soups
-- No yogurt on its own
+- No yogurt — do not suggest yogurt in any form as a breakfast, snack, or side for the child
 - No cheese on its own (cream cheese included)
+- No hummus on its own as a snack (with veggie sticks or crackers) — hummus as an ingredient in cooked meals (e.g. Hummus-Crusted Chicken) is fine
 - Mild food only (not spicy)
 - Prefers overnight oats over chia pudding
 - Dislikes roasted chickpeas as snack (as of Apr 2026 — skip for now)
 - Dislikes pumpkin pancakes from frozen — serve fresh only; avoid repeating back-to-back weeks
+- Dislikes potato skins — always peel potatoes when serving to child
+- Dislikes baked potatoes — mashed is fine; limit potatoes to max 1x/week
 
 ---
 
@@ -30,10 +33,13 @@
 - Weekday lunches = leftovers from previous night's dinner
 - Monday lunch = leftovers from Sunday dinner
 - Breakfast: not overly carb-heavy; include protein or healthy fat; overnight oats/chia max 2x/week, never consecutive days
+- Breakfast variety: no same format twice in a week — baked oatmeal and overnight oats are both oatmeal and count as the same format; vary formats across the week
 - Weekday breakfasts: quick/make-ahead; weekend breakfasts: more involved (fresh pancakes, scrambles, etc.)
 - Snacks: nut-free, transportable, hold for several hours, no cheese on its own
 - Weeknight dinners: ~30–45 min or make-ahead friendly
 - Dinner rotation target: ~2 chicken, ~1–2 fish, ~2–3 vegetarian/legume, ~1 out or simple
+- Dinner variety: spread across the full recipe library — do not default to the same handful; avoid repeating any dinner from the immediately preceding week
+- Baked items (muffins, oat bars, baked oatmeal): max 1 per week across ALL meals — breakfasts and snacks combined; baked items need to be made on the weekend prior so only plan 1 unless a second is very simple and falls on a less busy day
 - Veggie Egg Muffins: need a relaxed morning or prep the night before — don't schedule on early departure days
 
 ---
@@ -54,7 +60,7 @@
 ### Dinners — Fish
 | Meal | URL |
 |------|-----|
-| Sheet Pan Salmon & Broccoli | https://www.laurafuentes.com/sheet-pan-salmon-broccoli/ |
+| Sheet Pan Salmon & Broccoli/Asparagus | https://www.laurafuentes.com/sheet-pan-salmon-broccoli/ |
 | Asian Glazed Salmon + rice | https://www.recipetineats.com/asian-glazed-salmon/ |
 | Lemon Garlic Salmon Tray Bake | https://www.recipetineats.com/lemon-garlic-salmon-tray-bake-easy-healthy/ |
 | Baked Cod + Rice + Roasted Broccoli/Cauliflower | https://downshiftology.com/recipes/baked-cod/ or https://www.wellplated.com/baked-cod/ |
@@ -86,6 +92,34 @@
 | Turkey & Spinach Meatballs + pasta | https://saltandbaker.com/turkey-spinach-meatballs-and-spaghetti/ |
 | Beef Stir Fry + Rice Noodles | — |
 
+### Dinners — Local Recipe Files
+These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & Wellness\Recipes\`. Reference by name when suggesting — treat these as equally valid options alongside web recipes.
+
+| Meal | Folder | Notes |
+|------|--------|-------|
+| Hummus-Crusted Chicken | Main dishes - meat\ | 25–30 min, no nuts |
+| San Marzano Chicken with Oregano and Basil | Main dishes - meat\ | 15 min, no nuts |
+| High-Fiber Chicken and Black Bean Enchiladas | Main dishes - meat\ | 30 min, no nuts |
+| One-Pan Chicken With Green Beans & Tomatoes | Main dishes - meat\ | ~14 min, no nuts |
+| Chicken & Brown Rice Bowl | Main dishes - meat\ | no nuts |
+| Baked Chicken Drumsticks | Main dishes - meat\ | 40 min, no nuts |
+| Greek Chicken Pitas | Main dishes - meat\ | 20 min, no nuts |
+| Creamy Mac n Cheese With Chicken and Baby Kale | Main dishes - meat\ | 11 min, no nuts |
+| Pork Loin Chops (boneless) in Oven | Main dishes - meat\ | ~18 min, no nuts |
+| Cajun Tilapia with Broccoli and Brown Rice | Main dishes - seafood\ | 50 min, no nuts |
+| Broccoli Cheddar Spinach Frittata | Main dishes - vegetarian & other\ | 25 min, no nuts |
+| Barley and Black Bean Burgers | Main dishes - vegetarian & other\ | 15 min, no nuts |
+| Garlic Parmesan Spaghetti Squash | Main dishes - vegetarian & other\ | 20 min, no nuts |
+| Mushroom Bolognese Spaghetti Squash Casserole | Main dishes - vegetarian & other\ | 30–45 min, no nuts |
+| Mediterranean Pasta with Greens | Main dishes - vegetarian & other\ | 25 min, no nuts, kid-friendly |
+| Baked Eggs in Popped Beans with Ricotta on Toast | Main dishes - vegetarian & other\ | 20 min, no nuts |
+| Herb Roasted Cauliflower with Shiitake Mushrooms | Main dishes - vegetarian & other\ | 30–35 min, no nuts; serve with French lentils or wild rice |
+| Winter Vegetable Soup | Soups and Salads\ | 25 min, no nuts, kid-friendly |
+| Hearty Chicken & Corn Chowder | Soups and Salads\ | 15 min, no nuts, kid-friendly |
+| Corn Chowder | Soups and Salads\ | ~30 min, no nuts, very kid-friendly |
+| Tuscan Bean Soup | Soups and Salads\ | ~60 min, no nuts, Italian herbs, serve over pasta or polenta |
+| Chicken Kale Buckwheat Soup | Soups and Salads\ | 25 min, no nuts |
+
 ### Sides
 | Side | URL | Notes |
 |------|-----|-------|
@@ -103,11 +137,11 @@
 | Blueberry Pancakes | https://www.loveandlemons.com/blueberry-pancakes/ | Serve fresh |
 | Breakfast Quesadillas | https://cookieandkate.com/simple-breakfast-quesadillas-recipe/ | |
 | Banana Muffins (nut-free) | https://cookieandkate.com/healthy-banana-muffins-recipe/ | Skip optional nut add-ins; uses ~3 ripe bananas |
-| Healthy Blueberry Muffins ✓ nut-free | https://cookieandkate.com/healthy-blueberry-muffins/ | Confirmed nut-free; good for weekday snacks too |
+| Healthy Blueberry Muffins ✓ nut-free | https://cookieandkate.com/healthy-blueberry-muffins/ | Confirmed nut-free; good for weekday snacks too; frozen mixed berries works as sub |
 | Savory Veggie Muffins | https://www.yummytoddlerfood.com/easy-veggie-muffins/ | |
 | Pumpkin Muffins | https://cookieandkate.com/healthy-maple-pumpkin-muffins/ | |
 | Veggie Egg Muffins | https://www.yummytoddlerfood.com/egg-and-cheese-mini-muffins/ | Needs relaxed morning or night-before prep |
-| Egg & Potato Breakfast Scramble | https://cookieandkate.com/egg-and-potato-breakfast-scramble/ | |
+| Egg & Potato Breakfast Scramble | https://cookieandkate.com/egg-and-potato-breakfast-scramble/ | ⚠️ child doesn't eat — skip for now |
 
 ### Snacks
 | Meal | URL | Notes |
@@ -143,8 +177,8 @@
 - **New ingredient to avoid** → add to "Ingredients to Avoid"
 
 ## Recipes to Avoid / Didn't Work
-<!-- Add here as you go -->
+- Mediterranean Baked Chicken Dinner — too labour-intensive; weekend only if at all
 
 ---
 
-*Claude reads this file and the memory system at the start of each session. Just tell Claude to "add X to notes" and it will update the memory — you only need to update this file manually if you prefer.*
+*This file is the single source of truth for meal planning rules and recipes — used by both the Streamlit app and the Claude Code workflow. Always update this file when rules or recipes change.*

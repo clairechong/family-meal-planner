@@ -295,7 +295,6 @@ if not check_password():
 if "notes" not in st.session_state:
     st.session_state.notes = load_text(
         APP_DIR / "meal-plan-notes.md",
-        PROJECT_DIR / "meal-plan-notes.md",
     )
     st.session_state.history = load_text(
         APP_DIR / "meal_plan_history.md",
