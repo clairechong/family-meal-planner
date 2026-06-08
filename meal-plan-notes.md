@@ -55,7 +55,6 @@
 | Mediterranean Baked Chicken Dinner | https://www.recipetineats.com/mediterranean-baked-chicken-dinner/ |
 | Sheet Pan Chicken, Sweet Potato & Broccoli | https://www.wellplated.com/sheet-pan-chicken-rainbow-vegetables/ |
 | One-Pot Spanish Chickpea Chicken & Rice | https://kristineskitchenblog.com/one-pot-spanish-chickpea-chicken/ |
-| Crispy Baked Chicken Thighs | https://thesaltymarshmallow.com/crispy-baked-chicken-thighs/ |
 
 ### Dinners — Fish
 | Meal | URL |
@@ -178,6 +177,7 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 
 ## Recipes to Avoid / Didn't Work
 - Mediterranean Baked Chicken Dinner — too labour-intensive; weekend only if at all
+- Crispy Baked Chicken Thighs — fat splatters badly in oven; no wire rack available to mitigate
 
 ---
 
