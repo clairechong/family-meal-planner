@@ -69,7 +69,7 @@
 ### Dinners — Vegetarian / Legume
 | Meal | URL |
 |------|-----|
-| Thai Red Curry (Tofu/Veg) | https://cookieandkate.com/thai-red-curry-recipe/ |
+| Thai Red Curry (Tofu/Veg) ✓ double the recipe | https://cookieandkate.com/thai-red-curry-recipe/ |
 | Red Lentil Coconut Curry + grain | https://rainbowplantlife.com/vegan-red-lentil-curry/ |
 | Best Lentil Soup | https://cookieandkate.com/best-lentil-soup-recipe/ |
 | Red Lentil Soup | https://www.loveandlemons.com/red-lentil-soup/ |
