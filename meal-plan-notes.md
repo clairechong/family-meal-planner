@@ -12,13 +12,19 @@
   - Weekday **snacks and lunches** must be nut-free (packed and eaten at school)
   - Weekday **dinners** must be nut-free (leftovers become school lunch next day)
   - Weekday **breakfasts** can contain nuts (eaten at home)
+  - Travel/non-school snacks do not need to be nut-free — though nut-free is still preferred in public settings (e.g. on a plane)
   - Do NOT suggest sunflower seed butter — family doesn't typically buy it
   - Oat bars and granola bars must always be nut-free versions
+
+## Sweeteners & Pantry
+- **Preferred sweeteners:** maple syrup, honey, coconut sugar; small amount of cane sugar if needed
+- **Avoid:** brown sugar, white granulated sugar, molasses, agave syrup
+- **Flour:** family uses whole wheat flour — not all-purpose; baked recipes must work with whole wheat (or use no flour)
 
 ## Child Preferences
 - Likes: stir fries, pasta, rice dishes, baked chicken, eggs, soups
 - No yogurt — do not suggest yogurt in any form as a breakfast, snack, or side for the child
-- No cheese on its own (cream cheese included)
+- No cheese on its own (cream cheese included) — exception: ricotta is fine for packed snacks when paired with crackers or veggie sticks
 - No hummus on its own as a snack (with veggie sticks or crackers) — hummus as an ingredient in cooked meals (e.g. Hummus-Crusted Chicken) is fine
 - Mild food only (not spicy)
 - Prefers overnight oats over chia pudding
@@ -39,8 +45,10 @@
 - Weeknight dinners: ~30–45 min or make-ahead friendly
 - Dinner rotation target: ~2 chicken, ~1–2 fish, ~2–3 vegetarian/legume, ~1 out or simple
 - Dinner variety: spread across the full recipe library — do not default to the same handful; avoid repeating any dinner from the immediately preceding week
-- Baked items (muffins, oat bars, baked oatmeal): max 1 per week across ALL meals — breakfasts and snacks combined; baked items need to be made on the weekend prior so only plan 1 unless a second is very simple and falls on a less busy day
+- Baked items (muffins, oat bars, baked oatmeal): max 1 per week across ALL meals — breakfasts and snacks combined; baked items need to be made on the weekend prior so only plan 1 unless a second is very simple and falls on a less busy day; vary the baked item across weeks — don't repeat the same one (e.g. muffins) in consecutive weeks
 - Veggie Egg Muffins: need a relaxed morning or prep the night before — don't schedule on early departure days
+- Breakfast Quesadillas: weekends only — too time-consuming for weekday school mornings; for a quick weekday egg breakfast use Egg + Avocado in a Pita instead
+- Pancakes: don't suggest every week — check the previous week before suggesting; aim for max 1–2x per month
 
 ---
 
@@ -134,7 +142,8 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 | Chia Pudding | https://www.loveandlemons.com/chia-pudding/ | Child doesn't prefer — use sparingly |
 | Whole Wheat Pumpkin Pancakes | https://cookieandkate.com/pumpkin-pancakes-recipe/ | Serve fresh only; child dislikes from frozen |
 | Blueberry Pancakes | https://www.loveandlemons.com/blueberry-pancakes/ | Serve fresh |
-| Breakfast Quesadillas | https://cookieandkate.com/simple-breakfast-quesadillas-recipe/ | |
+| Breakfast Quesadillas | https://cookieandkate.com/simple-breakfast-quesadillas-recipe/ | Weekends only — too time-consuming for weekday mornings |
+| Egg + Avocado in a Pita | — | Quick weekday egg breakfast (~5 min, no recipe); approved Jun 2026 |
 | Banana Muffins (nut-free) | https://cookieandkate.com/healthy-banana-muffins-recipe/ | Skip optional nut add-ins; uses ~3 ripe bananas |
 | Healthy Blueberry Muffins ✓ nut-free | https://cookieandkate.com/healthy-blueberry-muffins/ | Confirmed nut-free; good for weekday snacks too; frozen mixed berries works as sub |
 | Savory Veggie Muffins | https://www.yummytoddlerfood.com/easy-veggie-muffins/ | |
@@ -148,7 +157,9 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 | Healthy Blueberry Muffins | https://cookieandkate.com/healthy-blueberry-muffins/ | ✓ nut-free confirmed |
 | Banana Muffins (nut-free base) | https://cookieandkate.com/healthy-banana-muffins-recipe/ | Skip optional nuts |
 | Nut-Free Oat Bars | https://www.twopeasandtheirpod.com/nut-free-granola-bars/ | |
-| Oatmeal On-The-Go Bars | https://weelicious.com/oatmeal-on-the-go-bars/ | |
+| Oatmeal On-The-Go Bars | https://weelicious.com/oatmeal-on-the-go-bars/ | Keeps ~1 day at room temp; good for same-day travel |
+| Banana Granola Bars ✓ nut-free | https://kristineskitchenblog.com/banana-chocolate-chip-granola-bars/ | Sub shredded coconut + pepitas for chocolate chips; uses white whole wheat flour; ~47 min; keeps several days — good travel snack |
+| Spiced Oatmeal Cookies | https://cookieandkate.com/spiced-oatmeal-cookies-recipe/ | Coconut sugar + cane sugar; whole wheat flour; 27 min; 3–5 day shelf life; portable travel snack |
 | Roasted Chickpeas | https://www.loveandlemons.com/roasted-chickpeas/ | Child not into these as of Apr 2026 — skip for now |
 
 ---
