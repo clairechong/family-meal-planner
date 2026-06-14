@@ -135,8 +135,15 @@ When the user says to generate the Excel, generate the file, or is happy with th
 {{"plan": [
   {{"day": "Mon Jun 2", "breakfast": "...", "snack1": "...", "lunch": "...", "snack2": "...", "dinner": "...", "recipe_url": "..."}},
   ... (include all days of the week)
+], "extra_items": [
+  {{"section": "Travel Snacks", "recipes": [
+    {{"name": "...", "notes": "...", "url": "..."}},
+    ...
+  ]}}
 ]}}
-```"""
+```
+
+Only include "extra_items" if the user explicitly asked for recipes outside the weekly plan (e.g. travel snacks, special sides). Omit the key entirely if there are no extras. Each recipe must have a "url" field with the full https:// link."""
 
 
 def clean_for_display(text: str) -> str:
@@ -151,14 +158,15 @@ def clean_for_display(text: str) -> str:
 
 
 def extract_plan(text: str):
-    """Extract the meal plan JSON from Claude's response, or return None."""
+    """Extract plan and optional extra_items from Claude's JSON block. Returns (plan, extra_items)."""
     match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
     if match:
         try:
-            return json.loads(match.group(1)).get("plan")
+            data = json.loads(match.group(1))
+            return data.get("plan"), data.get("extra_items", [])
         except Exception:
-            return None
-    return None
+            return None, []
+    return None, []
 
 
 def call_claude(messages: list, notes: str, history: str, stream_placeholder):
@@ -185,7 +193,7 @@ def call_claude(messages: list, notes: str, history: str, stream_placeholder):
     return "".join(chunks)
 
 
-def make_excel(plan: list) -> BytesIO:
+def make_excel(plan: list, extra_items: list = None) -> BytesIO:
     from openpyxl import Workbook
     from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
     from openpyxl.utils import get_column_letter
@@ -262,6 +270,36 @@ def make_excel(plan: list) -> BytesIO:
         if url:
             apply_link(ws.cell(row=row, column=7), url)
         ws.row_dimensions[row].height = 60
+
+    if extra_items:
+        SECTION_FILL = PatternFill("solid", fgColor="E2EFDA")
+        SECTION_FONT = Font(bold=True, size=11)
+        next_row = len(plan) + 3
+        for section in extra_items:
+            hdr = ws.cell(row=next_row, column=1, value=section.get("section", ""))
+            hdr.font, hdr.fill, hdr.alignment, hdr.border = SECTION_FONT, SECTION_FILL, WRAP, THIN
+            for col in range(2, 8):
+                c = ws.cell(row=next_row, column=col, value="")
+                c.fill, c.border = SECTION_FILL, THIN
+            ws.row_dimensions[next_row].height = 20
+            next_row += 1
+            for recipe in section.get("recipes", []):
+                name_cell = ws.cell(row=next_row, column=1, value=recipe.get("name", ""))
+                name_cell.fill, name_cell.alignment, name_cell.border = PLAIN_FILL, WRAP, THIN
+                notes_cell = ws.cell(row=next_row, column=2, value=recipe.get("notes", ""))
+                notes_cell.fill, notes_cell.alignment, notes_cell.border = PLAIN_FILL, WRAP, THIN
+                for col in range(3, 7):
+                    c = ws.cell(row=next_row, column=col, value="")
+                    c.fill, c.border = PLAIN_FILL, THIN
+                url = recipe.get("url", "")
+                link_cell = ws.cell(row=next_row, column=7, value=url)
+                link_cell.fill, link_cell.alignment, link_cell.border = PLAIN_FILL, WRAP, THIN
+                if url:
+                    apply_link(name_cell, url)
+                    apply_link(link_cell, url)
+                ws.row_dimensions[next_row].height = 30
+                next_row += 1
+
     ws.page_setup.orientation  = "landscape"
     ws.page_setup.fitToPage    = True
     ws.page_setup.fitToWidth   = 1
@@ -304,7 +342,7 @@ if "notes" not in st.session_state:
 
 notes, history = st.session_state.notes, st.session_state.history
 
-for key, default in [("messages", []), ("plan_data", None), ("week_label", ""), ("history_saved", False)]:
+for key, default in [("messages", []), ("plan_data", None), ("extra_items", []), ("week_label", ""), ("history_saved", False)]:
     if key not in st.session_state:
         st.session_state[key] = default
 
@@ -373,9 +411,10 @@ if user_input:
             stream_placeholder=placeholder,
         )
         placeholder.markdown(clean_for_display(reply))
-        plan = extract_plan(reply)
+        plan, extra_items = extract_plan(reply)
         if plan:
             st.session_state.plan_data = plan
+            st.session_state.extra_items = extra_items
             st.success("Excel ready! Download below, then save to history when you're happy with it.", icon="✅")
     st.session_state.messages.append({"role": "assistant", "content": reply})
     st.rerun()
@@ -387,7 +426,7 @@ if st.session_state.plan_data:
         st.subheader("📊 Your meal plan is ready to download")
     with col2:
         filename = f"{st.session_state.week_label or 'meal-plan'}.xlsx"
-        buf = make_excel(st.session_state.plan_data)
+        buf = make_excel(st.session_state.plan_data, st.session_state.get("extra_items", []))
         st.download_button(
             label="⬇️ Download Excel",
             data=buf,
