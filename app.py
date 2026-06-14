@@ -217,7 +217,7 @@ def make_excel(plan: list) -> BytesIO:
             return m.group(1)
         if " | http" in text:
             return text.split(" | ", 1)[1].strip()
-        if text.strip().startswith("http"):
+        if text.strip().startswith("http") or text.strip().startswith("file:///"):
             return text.strip()
         return ""
 
