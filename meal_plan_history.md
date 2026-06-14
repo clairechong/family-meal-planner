@@ -9,6 +9,14 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Jun 15–20, 2026 (Mon–Sat; used up ground turkey, ricotta, frozen pasta sauce; eating out Mon/Fri/Sat; trip departs Sun Jun 21)
+- Mon: Eating Out
+- Tue: Baked Eggs in Popped Beans with Ricotta on Toast
+- Wed: One-Pan Chicken with Green Beans & Tomatoes
+- Thu: Turkey & Spinach Meatballs + pasta (jarred sauce)
+- Fri: Eating Out
+- Sat: Eating Out
+
 ### Jun 8–14, 2026
 - Mon: Thai Red Curry (Tofu/Veg) + rice
 - Tue: Ginger Chicken Stir Fry + rice (uses celery + carrot)
