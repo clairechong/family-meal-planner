@@ -41,7 +41,7 @@
 - Breakfast: not overly carb-heavy; include protein or healthy fat; overnight oats/chia max 2x/week, never consecutive days
 - Breakfast variety: no same format twice in a week — baked oatmeal and overnight oats are both oatmeal and count as the same format; vary formats across the week
 - Weekday breakfasts: quick/make-ahead; weekend breakfasts: more involved (fresh pancakes, scrambles, etc.)
-- Snacks: nut-free, transportable, hold for several hours, no cheese on its own
+- Snacks: nut-free, transportable, hold for several hours, no cheese on its own; keep fruit references generic (e.g. "Fruit", not "Apple") — use whatever is seasonal or on hand
 - Weeknight dinners: ~30–45 min or make-ahead friendly
 - Dinner rotation target: ~2 chicken, ~1–2 fish, ~2–3 vegetarian/legume, ~1 out or simple
 - Dinner variety: spread across the full recipe library — do not default to the same handful; avoid repeating any dinner from the immediately preceding week
