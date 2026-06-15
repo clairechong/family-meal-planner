@@ -49,6 +49,7 @@
 - Veggie Egg Muffins: need a relaxed morning or prep the night before — don't schedule on early departure days
 - Breakfast Quesadillas: weekends only — too time-consuming for weekday school mornings; for a quick weekday egg breakfast use Egg + Avocado in a Pita instead
 - Pancakes: don't suggest every week — check the previous week before suggesting; aim for max 1–2x per month
+- Smoothies: never suggest a smoothie alone as a breakfast — always pair with a second item (e.g. toast, muffin, egg dish, fruit + nut butter)
 
 ---
 
@@ -150,6 +151,11 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 | Pumpkin Muffins | https://cookieandkate.com/healthy-maple-pumpkin-muffins/ | |
 | Veggie Egg Muffins | https://www.yummytoddlerfood.com/egg-and-cheese-mini-muffins/ | Needs relaxed morning or night-before prep |
 | Egg & Potato Breakfast Scramble | https://cookieandkate.com/egg-and-potato-breakfast-scramble/ | ⚠️ child doesn't eat — skip for now |
+| Simple Green Smoothie | https://www.yummytoddlerfood.com/simple-green-smoothie-for-toddlers/ | 5 min weekday; frozen fruit + spinach + banana; yogurt ok blended; nut butter ok at home |
+| Easy French Toast | https://kristineskitchenblog.com/french-toast/ | 11 min; any whole wheat bread; skip optional nut toppings (base is nut-free) |
+| Egg Bites | https://www.yummytoddlerfood.com/egg-bites-with-cottage-cheese/ | Make-ahead batch; sub ricotta for cottage cheese; eggs + veggies |
+| Congee (Chicken & Rice Porridge) | https://www.recipetineats.com/chinese-ham-bone-rice-soup-congee/ | Weekend batch, weekday reheat; not vegetarian; child loves rice |
+| Grits + Eggs | https://www.loveandlemons.com/grits-and-eggs/ | Cornmeal porridge topped with eggs; 25-30 min or pre-cook grits ahead |
 
 ### Snacks
 | Meal | URL | Notes |
@@ -171,13 +177,10 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 - Well Plated — wellplated.com
 - Yummy Toddler Food — yummytoddlerfood.com
 - Rainbow Plant Life — rainbowplantlife.com
-- Laura Fuentes — laurafuentes.com
-- The Salty Marshmallow — thesaltymarshmallow.com
 - Oh She Glows — ohsheglows.com
-- Salt and Baker — saltandbaker.com
-- Downshiftology — downshiftology.com
 - Kristine's Kitchen — kristineskitchenblog.com
-- Crazy Cucumber — crazy-cucumber.com
+- Downshiftology — downshiftology.com
+- Laura Fuentes — laurafuentes.com (fish and pasta only — site is otherwise beef-heavy)
 
 ---
 
