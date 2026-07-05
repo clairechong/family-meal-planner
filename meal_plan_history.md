@@ -9,6 +9,16 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Jul 5–12, 2026 (Sun–Sun; eating out Sat both lunch & dinner)
+- Sun: Lentil Soup (family recipe)
+- Mon: Mediterranean Pasta with Greens
+- Tue: Lemon Garlic Salmon Tray Bake
+- Wed: Vegetable Fried Rice
+- Thu: Hummus-Crusted Chicken
+- Fri: Sweet Potato, Kale & Chickpea Soup
+- Sat: Eating Out
+- Sun: Baked Cod + Rice + Roasted Broccoli/Cauliflower
+
 ### Jun 15–20, 2026 (Mon–Sat; used up ground turkey, ricotta, frozen pasta sauce; eating out Mon/Fri/Sat; trip departs Sun Jun 21)
 - Mon: Eating Out
 - Tue: Baked Eggs in Popped Beans with Ricotta on Toast
