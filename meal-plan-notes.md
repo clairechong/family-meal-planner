@@ -48,7 +48,8 @@
 - Baked items (muffins, oat bars, baked oatmeal): max 1 per week across ALL meals — breakfasts and snacks combined; baked items need to be made on the weekend prior so only plan 1 unless a second is very simple and falls on a less busy day; vary the baked item across weeks — don't repeat the same one (e.g. muffins) in consecutive weeks
 - Veggie Egg Muffins: need a relaxed morning or prep the night before — don't schedule on early departure days
 - Breakfast Quesadillas: weekends only — too time-consuming for weekday school mornings; for a quick weekday egg breakfast use Egg + Avocado in a Pita instead
-- Pancakes: don't suggest every week — check the previous week before suggesting; aim for max 1–2x per month
+- Easy French Toast: weekends/non-working days only — stovetop batching for 3 people realistically runs ~28-38 min despite the recipe's "11 min" claim; same category as pancakes/quesadillas
+- Pancakes: weekends/non-working days only — too time-consuming for weekday mornings (same rule as Breakfast Quesadillas); don't suggest every week — check the previous week before suggesting; aim for max 1–2x per month
 - Smoothies: never suggest a smoothie alone as a breakfast — always pair with a second item (e.g. toast, muffin, egg dish, fruit + nut butter)
 
 ---
@@ -92,6 +93,8 @@
 | Cabbage Soup (+ white beans/chickpeas) | https://www.loveandlemons.com/cabbage-soup/ |
 | Spinach Ricotta Pasta | https://theclevermeal.com/10-minute-lemon-ricotta-pasta-with-spinach/ |
 | Spanish Tortilla + green salad | https://www.recipetineats.com/spanish-tortilla-omelette/ |
+| Empowered Soba Noodle Bowl (Oh She Glows cookbook — not on ohsheglows.com; repost) | https://veganyackattack.com/2014/05/15/empowered-noodle-bowl-oh-she-glows/ |
+| Soba Noodle Salad (Oh She Glows cookbook — not on ohsheglows.com; repost) | https://thehappyfoodie.co.uk/recipes/soba-noodle-salad/ |
 
 ### Dinners — Other
 | Meal | URL |
@@ -99,6 +102,7 @@
 | Chicken & Vegetable Congee | https://www.crazy-cucumber.com/millet-congee-with-chicken-ginger-and-shiitake/ (inspiration only — made from memory) |
 | Turkey & Spinach Meatballs + pasta | https://saltandbaker.com/turkey-spinach-meatballs-and-spaghetti/ |
 | Beef Stir Fry + Rice Noodles | — |
+| Pineapple Chicken with Snow Peas | — (family's own, thrown together — no fixed recipe) |
 
 ### Dinners — Local Recipe Files
 These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & Wellness\Recipes\`. Reference by name when suggesting — treat these as equally valid options alongside web recipes.
@@ -114,7 +118,7 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 | Greek Chicken Pitas | Main dishes - meat\ | 20 min, no nuts |
 | Creamy Mac n Cheese With Chicken and Baby Kale | Main dishes - meat\ | 11 min, no nuts |
 | Pork Loin Chops (boneless) in Oven | Main dishes - meat\ | ~18 min, no nuts |
-| Cajun Tilapia with Broccoli and Brown Rice | Main dishes - seafood\ | 50 min, no nuts |
+| Cajun Tilapia with Broccoli and Brown Rice | Main dishes - seafood\ | 50 min, no nuts; no Cajun seasoning on hand — sub ½ tsp paprika + ½ tsp garlic powder + ½ tsp dried oregano (1.5 tsp total, same as recipe calls for; split ½ tsp into rice, 1 tsp on tilapia); skip cayenne/heat for child |
 | Broccoli Cheddar Spinach Frittata | Main dishes - vegetarian & other\ | 25 min, no nuts |
 | Barley and Black Bean Burgers | Main dishes - vegetarian & other\ | 15 min, no nuts |
 | Garlic Parmesan Spaghetti Squash | Main dishes - vegetarian & other\ | 20 min, no nuts |
@@ -152,10 +156,13 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 | Veggie Egg Muffins | https://www.yummytoddlerfood.com/egg-and-cheese-mini-muffins/ | Needs relaxed morning or night-before prep |
 | Egg & Potato Breakfast Scramble | https://cookieandkate.com/egg-and-potato-breakfast-scramble/ | ⚠️ child doesn't eat — skip for now |
 | Simple Green Smoothie | https://www.yummytoddlerfood.com/simple-green-smoothie-for-toddlers/ | 5 min weekday; frozen fruit + spinach + banana; yogurt ok blended; nut butter ok at home |
-| Easy French Toast | https://kristineskitchenblog.com/french-toast/ | 11 min; any whole wheat bread; skip optional nut toppings (base is nut-free) |
+| Classic Green Monster (Oh She Glows cookbook) | https://ohsheglows.com/classic-green-monster/ | 5 min, blender only; almond milk + banana + spinach + chia/flax + nut butter; no yogurt; contains nuts as written (almond milk + nut butter) — sub oat/soy/coconut milk and drop nut butter for nut-free weeks; always pair with a second item (toast, egg, fruit) per no-smoothie-alone rule |
+| Easy French Toast | https://kristineskitchenblog.com/french-toast/ | Weekends/non-working days only — "11 min" is only prep + one batch's cook time; stovetop skillet fits 2-3 slices, so 3 people (~5-6 slices) needs 2-3 batches plus cleanup, realistically ~28-38 min stand-at-the-stove; any whole wheat bread; skip optional nut toppings (base is nut-free) |
 | Egg Bites | https://www.yummytoddlerfood.com/egg-bites-with-cottage-cheese/ | Make-ahead batch; sub ricotta for cottage cheese; eggs + veggies |
 | Congee (Chicken & Rice Porridge) | https://www.recipetineats.com/chinese-ham-bone-rice-soup-congee/ | Weekend batch, weekday reheat; not vegetarian; child loves rice |
 | Grits + Eggs | https://www.loveandlemons.com/grits-and-eggs/ | Cornmeal porridge topped with eggs; 25-30 min or pre-cook grits ahead |
+| Cereal + Fruit | — | Occasional only, not every week; very quick weekday option |
+| Toast + Fruit | — | Occasional only, not every week; very quick weekday option |
 
 ### Snacks
 | Meal | URL | Notes |
@@ -181,6 +188,8 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 - Kristine's Kitchen — kristineskitchenblog.com
 - Downshiftology — downshiftology.com
 - Laura Fuentes — laurafuentes.com (fish and pasta only — site is otherwise beef-heavy)
+
+Note: veganyackattack.com and thehappyfoodie.co.uk are NOT approved recipe sources — they just happen to host reposts of two Oh She Glows cookbook recipes (Empowered Soba Noodle Bowl, Soba Noodle Salad) that aren't on ohsheglows.com. Don't treat these sites as trusted for future recipe searches; the trust is in Oh She Glows (the cookbook), not the hosting site.
 
 ---
 

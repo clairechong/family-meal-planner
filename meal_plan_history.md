@@ -9,10 +9,19 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Jul 20–26, 2026 (Mon–Sun; child at camp all week, camp provides lunch so nut restriction relaxed on dinners; eating out Fri; Thu busy <30 min night)
+- Mon: Empowered Soba Noodle Bowl, Thai peanut sauce (Oh She Glows cookbook)
+- Tue: Thai Red Curry (Tofu/Veg), double batch
+- Wed: Sheet Pan Salmon & Asparagus
+- Thu: Pineapple Chicken with Snow Peas + rice (family recipe)
+- Fri: Eating Out
+- Sat: Cajun Tilapia with Broccoli & Grain
+- Sun: Oven Baked Chicken and Rice + roasted green beans
+
 ### Jul 5–12, 2026 (Sun–Sun; eating out Sat both lunch & dinner)
 - Sun: Lentil Soup (family recipe)
 - Mon: Mediterranean Pasta with Greens
-- Tue: Lemon Garlic Salmon Tray Bake
+- Tue: Lemon Garlic Salmon Tray Bake ✓ child ate all components
 - Wed: Vegetable Fried Rice
 - Thu: Hummus-Crusted Chicken
 - Fri: Sweet Potato, Kale & Chickpea Soup
