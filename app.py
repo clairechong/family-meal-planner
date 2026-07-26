@@ -319,7 +319,11 @@ def check_password():
         return True
     pwd = st.text_input("Password", type="password", key="pwd_input")
     if st.button("Enter"):
-        correct = os.getenv("APP_PASSWORD") or st.secrets.get("APP_PASSWORD", "")
+        try:
+            secret_pwd = st.secrets.get("APP_PASSWORD", "")
+        except Exception:
+            secret_pwd = ""
+        correct = os.getenv("APP_PASSWORD") or secret_pwd
         if pwd == correct:
             st.session_state.authenticated = True
             st.rerun()
