@@ -358,18 +358,28 @@ with st.sidebar:
         st.success("API key loaded ✓", icon="🔑")
     else:
         st.error("Set ANTHROPIC_API_KEY in your .env file")
-    st.divider()
-    st.subheader("Plan a new week")
+
+st.title("Family Meal Planner")
+
+has_conversation = bool(st.session_state.messages) or bool(st.session_state.get("pending"))
+with st.expander("📝 Plan a new week", expanded=not has_conversation):
     today         = date.today()
     days_ahead    = (7 - today.weekday()) % 7 or 7
     default_start = today + timedelta(days=days_ahead)
     default_end   = default_start + timedelta(days=6)
-    week_start = st.date_input("Week start (Mon)", value=default_start)
-    week_end   = st.date_input("Week end (Sun)",   value=default_end)
-    eating_out  = st.text_input("🍽️ Eating out?", placeholder="e.g. Friday dinner")
-    busy_nights = st.text_input("⚡ Busy nights?", placeholder="e.g. Tuesday, Thursday")
-    use_up      = st.text_input("🥦 Ingredients to use up?", placeholder="e.g. spinach, chicken")
-    extra       = st.text_area("📝 Other notes", placeholder="Anything else Claude should know", height=80)
+    col1, col2 = st.columns(2)
+    with col1:
+        week_start = st.date_input("Week start (Mon)", value=default_start)
+    with col2:
+        week_end   = st.date_input("Week end (Sun)",   value=default_end)
+    col3, col4, col5 = st.columns(3)
+    with col3:
+        eating_out  = st.text_input("🍽️ Eating out?", placeholder="e.g. Friday dinner")
+    with col4:
+        busy_nights = st.text_input("⚡ Busy nights?", placeholder="e.g. Tuesday, Thursday")
+    with col5:
+        use_up      = st.text_input("🥦 Ingredients to use up?", placeholder="e.g. spinach, chicken")
+    extra = st.text_area("📝 Other notes", placeholder="Anything else Claude should know", height=80)
     if st.button("✨ Generate Plan", type="primary", use_container_width=True):
         parts = []
         if eating_out:  parts.append(f"eating out: {eating_out}")
@@ -388,9 +398,8 @@ with st.sidebar:
         st.session_state.week_end      = week_end
         st.session_state.pending       = msg
 
-st.title("Family Meal Planner")
-if not st.session_state.messages and not st.session_state.get("pending"):
-    st.info("Fill in the details on the left and click **✨ Generate Plan** to start.", icon="👈")
+if not has_conversation:
+    st.info("Fill in the details above and click **✨ Generate Plan** to start.", icon="👆")
 
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):

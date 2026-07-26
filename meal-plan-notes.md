@@ -45,6 +45,7 @@
 - Weeknight dinners: ~30–45 min or make-ahead friendly
 - Dinner rotation target: ~2 chicken, ~1–2 fish, ~2–3 vegetarian/legume, ~1 out or simple
 - Dinner variety: spread across the full recipe library — do not default to the same handful; avoid repeating any dinner from the immediately preceding week
+- Dinner variety: no same main protein or key ingredient (chicken, salmon, lentils, eggs, chickpeas, etc.) on back-to-back nights — and this includes the starch/grain side (rice, pasta, noodles, etc.), not just the protein
 - Baked items (muffins, oat bars, baked oatmeal): max 1 per week across ALL meals — breakfasts and snacks combined; baked items need to be made on the weekend prior so only plan 1 unless a second is very simple and falls on a less busy day; vary the baked item across weeks — don't repeat the same one (e.g. muffins) in consecutive weeks
 - Veggie Egg Muffins: need a relaxed morning or prep the night before — don't schedule on early departure days
 - Breakfast Quesadillas: weekends only — too time-consuming for weekday school mornings; for a quick weekday egg breakfast use Egg + Avocado in a Pita instead
