@@ -9,6 +9,13 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Aug 5–9, 2026 (Wed–Sun; mid-week start; no grocery shopping until Wed night — Wed dinner built from freezer stock only: chicken, frozen corn, edamame, mushrooms, no onion/garlic; camp provides lunch, no weekday snacks needed; eating out Fri/Sat)
+- Wed: Chicken, Corn, Edamame & Mushroom Stir-Fry + Rice (family recipe, thrown together)
+- Thu: Spanish Tortilla + green salad
+- Fri: Eating Out
+- Sat: Eating Out
+- Sun: Beef Stir Fry + Rice Noodles
+
 ### Jul 20–26, 2026 (Mon–Sun; child at camp all week, camp provides lunch so nut restriction relaxed on dinners; eating out Fri; Thu busy <30 min night)
 - Mon: Empowered Soba Noodle Bowl, Thai peanut sauce (Oh She Glows cookbook)
 - Tue: Thai Red Curry (Tofu/Veg), double batch
