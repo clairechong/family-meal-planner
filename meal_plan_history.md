@@ -9,9 +9,18 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Aug 10–16, 2026 (Mon–Sun; camp still on, camp provides lunch, no weekday snacks; Wed appt — child fasting, no breakfast, portable granola bar bite instead; Thu busy <30 min night; eating out Sat; using up remaining chicken thighs; Sunday's Baked Oatmeal made as a big batch to carry into next Mon/Tue breakfasts)
+- Mon: Lentil Soup (family recipe)
+- Tue: Asian Glazed Salmon + rice
+- Wed: One-Pan Chicken with Green Beans & Tomatoes — chicken thighs
+- Thu: Baked Cod + Mashed Sweet Potatoes + Roasted Broccoli/Cauliflower
+- Fri: Turkey & Spinach Meatballs + pasta
+- Sat: Eating Out
+- Sun: Red Lentil Coconut Curry + grain
+
 ### Aug 5–9, 2026 (Wed–Sun; mid-week start; no grocery shopping until Wed night — Wed dinner built from freezer stock only: chicken, frozen corn, edamame, mushrooms, no onion/garlic; camp provides lunch, no weekday snacks needed; eating out Fri/Sat)
 - Wed: Chicken, Corn, Edamame & Mushroom Stir-Fry + Rice (family recipe, thrown together)
-- Thu: Spanish Tortilla + green salad
+- Thu: Spanish Tortilla + green salad ✓ hit — child ate it; added shiitake mushrooms for variety; tip: turn off heat partway and let residual heat finish cooking
 - Fri: Eating Out
 - Sat: Eating Out
 - Sun: Beef Stir Fry + Rice Noodles
