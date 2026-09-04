@@ -94,6 +94,7 @@
 | Cabbage Soup (+ white beans/chickpeas) | https://www.loveandlemons.com/cabbage-soup/ |
 | Spinach Ricotta Pasta | https://theclevermeal.com/10-minute-lemon-ricotta-pasta-with-spinach/ |
 | Spanish Tortilla + green salad | https://www.recipetineats.com/spanish-tortilla-omelette/ |
+| Lentil Soup/Stew (family recipe, thrown together — no fixed recipe, whatever lentils/veg on hand) | — |
 | Empowered Soba Noodle Bowl (Oh She Glows cookbook — not on ohsheglows.com; repost) | https://veganyackattack.com/2014/05/15/empowered-noodle-bowl-oh-she-glows/ |
 | Soba Noodle Salad (Oh She Glows cookbook — not on ohsheglows.com; repost) | https://thehappyfoodie.co.uk/recipes/soba-noodle-salad/ |
 
@@ -164,6 +165,7 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 | Grits + Eggs | https://www.loveandlemons.com/grits-and-eggs/ | Cornmeal porridge topped with eggs; 25-30 min or pre-cook grits ahead |
 | Cereal + Fruit | — | Occasional only, not every week; very quick weekday option |
 | Toast + Fruit | — | Occasional only, not every week; very quick weekday option |
+| Polenta (creamy) | — (family recipe, no fixed source) | Pair with a second item (fruit, egg, smoothie) — not a full breakfast alone |
 
 ### Snacks
 | Meal | URL | Notes |
