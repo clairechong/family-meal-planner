@@ -9,6 +9,24 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Aug 31–Sep 6, 2026 (Mon–Sun; in progress as of Sep 4 — plan made via app, backfilled here; eating out Fri)
+- Mon: Sesame Crusted Salmon + Soba + Greens
+- Tue: Spinach Ricotta Pasta (quick, small portion)
+- Wed: One-Pot Spanish Chickpea Chicken & Rice (made ahead Sun)
+- Thu: Sweet Potato, Kale & Chickpea Soup + crusty bread
+- Fri: Eating Out
+- Sat: Hummus-Crusted Chicken + mashed sweet potato + avocado tomato salad
+- Sun: Thai Red Curry (add Tofu) + bulgur
+
+### Aug 17–23, 2026 (Mon–Sun; plan made via app, backfilled here; eating out Fri)
+- Mon: Broccoli Cheddar Spinach Frittata + butter beans
+- Tue: San Marzano Chicken with Oregano and Basil + rice + spinach salad
+- Wed: Beef Stir Fry + Rice Noodles (with carrots)
+- Thu: Sweet Potato, Kale & Chickpea Soup + crusty bread
+- Fri: Eating Out
+- Sat: Lentil Soup/Stew (family thrown-together recipe, leftover-style)
+- Sun: Hummus-Crusted Chicken + roasted veg (+ Baked Oatmeal prep for next week)
+
 ### Aug 10–16, 2026 (Mon–Sun; camp still on, camp provides lunch, no weekday snacks; Wed appt — child fasting, no breakfast, portable granola bar bite instead; Thu busy <30 min night; eating out Sat; using up remaining chicken thighs; Sunday's Baked Oatmeal made as a big batch to carry into next Mon/Tue breakfasts)
 - Mon: Lentil Soup (family recipe)
 - Tue: Asian Glazed Salmon + rice
