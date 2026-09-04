@@ -32,6 +32,7 @@
 - Dislikes pumpkin pancakes from frozen — serve fresh only; avoid repeating back-to-back weeks
 - Dislikes potato skins — always peel potatoes when serving to child
 - Dislikes baked potatoes — mashed is fine; limit potatoes to max 1x/week
+- Dislikes buckwheat groats porridge (as of Sep 2026 — do not suggest for now)
 
 ---
 
@@ -90,7 +91,7 @@
 | White Bean Soup | https://www.loveandlemons.com/white-bean-soup/ |
 | Easy Veggie Stir Fry with Tofu | https://www.loveandlemons.com/stir-fry-recipe/ |
 | Tofu Stir Fry | https://www.wellplated.com/tofu-stir-fry/ |
-| Sweet Potato, Kale & Chickpea Soup | https://cookieandkate.com/sweet-potato-kale-and-chickpea-soup/ |
+| Sweet Potato, Kale & Chickpea Soup (family subs navy beans or cannellini beans for chickpeas) | https://cookieandkate.com/sweet-potato-kale-and-chickpea-soup/ |
 | Cabbage Soup (+ white beans/chickpeas) | https://www.loveandlemons.com/cabbage-soup/ |
 | Spinach Ricotta Pasta | https://theclevermeal.com/10-minute-lemon-ricotta-pasta-with-spinach/ |
 | Spanish Tortilla + green salad | https://www.recipetineats.com/spanish-tortilla-omelette/ |
