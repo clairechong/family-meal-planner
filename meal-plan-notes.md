@@ -138,7 +138,7 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 ### Sides
 | Side | URL | Notes |
 |------|-----|-------|
-| Mashed Sweet Potatoes | https://www.loveandlemons.com/mashed-sweet-potatoes/ | Faster + easier than wedges, weekday-friendly, family approved |
+| Mashed Sweet Potatoes | https://www.loveandlemons.com/mashed-sweet-potatoes/ | Faster + easier than wedges, weekday-friendly, family approved; ✓ child hit — go-to side when a side is needed |
 | Roasted Broccoli or Cauliflower | https://www.loveandlemons.com/roasted-broccoli/ | Simple weeknight side, pairs well with fish |
 
 ### Breakfasts
