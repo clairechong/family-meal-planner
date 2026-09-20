@@ -9,6 +9,14 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Sep 21–27, 2026
+- Mon: Pasta (family recipe)
+- Tue: Baked Chicken Drumsticks + mashed potatoes + roasted carrots
+- Wed: Sheet Pan Salmon & Broccoli
+- Thu: Easy Veggie Stir Fry with Tofu + rice
+- Fri: Red Lentil Soup + crusty bread
+- Sat: Eating Out
+- Sun: Hummus-Crusted Chicken + mashed sweet potato + salad
 ### Aug 31–Sep 6, 2026 (Mon–Sun; in progress as of Sep 4 — plan made via app, backfilled here; eating out Fri)
 - Mon: Sesame Crusted Salmon + Soba + Greens
 - Tue: Spinach Ricotta Pasta (quick, small portion)
