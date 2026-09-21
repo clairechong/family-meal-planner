@@ -45,7 +45,9 @@
 - Snacks: nut-free, transportable, hold for several hours, no cheese on its own; keep fruit references generic (e.g. "Fruit", not "Apple") — use whatever is seasonal or on hand
 - Weeknight dinners: ~30–45 min or make-ahead friendly
 - Dinner rotation target: ~2 chicken, ~1–2 fish, ~2–3 vegetarian/legume, ~1 out or simple
-- Dinner variety: spread across the full recipe library — do not default to the same handful; avoid repeating any dinner from the immediately preceding week
+- Dinner variety: spread across the full recipe library — do not default to the same handful; avoid repeating the same specific dinner recipe within the past 3–4 weeks (not just the immediately preceding week)
+- Dinner variety: also avoid repeating the same protein+format combo (e.g. any salmon tray-bake/sheet-pan dish, any chicken+rice dish) more than once every 2 weeks, even if the specific recipe differs — check meal_plan_history.md for the last 3–4 weeks before picking, not just the last one
+- Dinner variety: prioritize recipes from the "Local Recipe Files" library below that haven't appeared in meal_plan_history.md recently — this list is large and under-used; don't default to the same ~8 web recipes every week
 - Dinner variety: no same main protein or key ingredient (chicken, salmon, lentils, eggs, chickpeas, etc.) on back-to-back nights — and this includes the starch/grain side (rice, pasta, noodles, etc.), not just the protein
 - Baked items (muffins, oat bars, baked oatmeal): max 1 per week across ALL meals — breakfasts and snacks combined; baked items need to be made on the weekend prior so only plan 1 unless a second is very simple and falls on a less busy day; vary the baked item across weeks — don't repeat the same one (e.g. muffins) in consecutive weeks
 - Veggie Egg Muffins: need a relaxed morning or prep the night before — don't schedule on early departure days
@@ -81,6 +83,7 @@
 | Meal | URL |
 |------|-----|
 | Thai Red Curry (Tofu/Veg) ✓ double the recipe | https://cookieandkate.com/thai-red-curry-recipe/ |
+| Mushroom Garlic Pasta (skip walnuts) | https://www.laurafuentes.com/mushroom-pasta/ |
 | Red Lentil Coconut Curry + grain | https://rainbowplantlife.com/vegan-red-lentil-curry/ |
 | Best Lentil Soup | https://cookieandkate.com/best-lentil-soup-recipe/ |
 | Red Lentil Soup | https://www.loveandlemons.com/red-lentil-soup/ |
@@ -134,6 +137,16 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 | Corn Chowder | Soups and Salads\ | ~30 min, no nuts, very kid-friendly |
 | Tuscan Bean Soup | Soups and Salads\ | ~60 min, no nuts, Italian herbs, serve over pasta or polenta |
 | Chicken Kale Buckwheat Soup | Soups and Salads\ | 25 min, no nuts |
+| Pasta Lentil Bolognese | Main dishes - vegetarian & other\ | 70 min, weekend only, no nuts |
+| Tofu Kale Lasagna | Main dishes - vegetarian & other\ | 45–50 min, weekend, no nuts |
+| Penne and Roasted Vegetables with Basil Sauce | Main dishes - vegetarian & other\ | ~40 min, no nuts, weekend |
+| Grandma Marys Perogies with Potato-Cheese Filling | Main dishes - vegetarian & other\ | seasonal batch project only (half-day, freeze extras) — not a regular rotation dinner, no nuts |
+| Sweet Pea Fish Pie (Jamie Oliver) | Main dishes - seafood\ | 1.5 hrs, weekend only, no nuts |
+| Creamy Butternut Squash and Apple Soup | Soups and Salads\ | 45 min, no nuts (skip any nut garnish) |
+| Creamy Roasted Cauliflower Soup | Soups and Salads\ | 55 min, no nuts, weekend |
+| Cream of Broccoli Soup | Soups and Salads\ | 40 min, no nuts; serve with bread |
+| Goodness Soup | Soups and Salads\ | 3+ hrs, weekend batch, no nuts; skip miso variation |
+| Sweet Potato, Corn & Kale Chowder | Soups and Salads\ | ~30 min; contains cashew butter — sub tahini for nut-free, or Fri/Sat/holiday only |
 
 ### Sides
 | Side | URL | Notes |
@@ -192,6 +205,8 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 - Kristine's Kitchen — kristineskitchenblog.com
 - Downshiftology — downshiftology.com
 - Laura Fuentes — laurafuentes.com (fish and pasta only — site is otherwise beef-heavy)
+- Food Network — foodnetwork.com
+- Food Network Canada — foodnetwork.ca
 
 Note: veganyackattack.com and thehappyfoodie.co.uk are NOT approved recipe sources — they just happen to host reposts of two Oh She Glows cookbook recipes (Empowered Soba Noodle Bowl, Soba Noodle Salad) that aren't on ohsheglows.com. Don't treat these sites as trusted for future recipe searches; the trust is in Oh She Glows (the cookbook), not the hosting site.
 
