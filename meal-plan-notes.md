@@ -122,6 +122,7 @@ These are vetted PDF recipes saved locally at `X:\Shared Files\Food, Health & We
 | Chicken & Brown Rice Bowl | Main dishes - meat\ | no nuts |
 | Baked Chicken Drumsticks | Main dishes - meat\ | 40 min, no nuts |
 | Greek Chicken Pitas | Main dishes - meat\ | 20 min, no nuts |
+| Dump and Bake Greek Chicken and Rice Casserole | Main dishes - meat\ | pairs with tzatziki + salad; no nuts; not yet vetted/tried |
 | Creamy Mac n Cheese With Chicken and Baby Kale | Main dishes - meat\ | 11 min, no nuts |
 | Pork Loin Chops (boneless) in Oven | Main dishes - meat\ | ~18 min, no nuts |
 | Cajun Tilapia with Broccoli and Brown Rice | Main dishes - seafood\ | 50 min, no nuts; no Cajun seasoning on hand — sub ½ tsp paprika + ½ tsp garlic powder + ½ tsp dried oregano (1.5 tsp total, same as recipe calls for; split ½ tsp into rice, 1 tsp on tilapia); skip cayenne/heat for child |
