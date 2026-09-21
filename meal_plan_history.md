@@ -9,17 +9,16 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
-### Sep 21–27, 2026 (Mon–Sun; plan made via app, backfilled here; eating out Sat)
+### Sep 21–27, 2026 (Mon–Sun; plan made via app; eating out Sat)
 - Mon: Pasta (family recipe)
 - Tue: Baked Chicken Drumsticks + cauli mashed potatoes + roasted carrots
 - Wed: Sheet Pan Salmon & Broccoli
 - Thu: Veggie Stir Fry with Tofu + rice
 - Fri: Lentil Soup (family recipe) + crusty bread
 - Sat: Eating Out
-- Sun: Dump and Bake Greek Chicken and Rice Casserole + salad + homemade tzatziki — NEW recipe, needs vetting/feedback after trying
+- Sun: ⚠️ mismatch between sources — the exported Excel (`weekly plans/2026-09-21_to_09-27.xlsx`) says "Dump and Bake Greek Chicken and Rice Casserole + salad + homemade tzatziki" (NEW recipe, needs vetting/feedback after trying); the app's auto-committed history says "Hummus-Crusted Chicken + mashed sweet potato + salad". Confirm which was actually planned/cooked and correct this line next update.
 
 ⚠️ Partner feedback (logged Sep 20, before the week started): too much overlap week-to-week — salmon and chicken+rice combos repeating every 1–2 weeks. Root cause found and fixed: the app's rotation rule only checked the immediately preceding week (not 3–4 weeks), and ~15 vetted local recipes weren't in the app's source file at all. Both fixed in meal-plan-notes.md; added foodnetwork.com/.ca as sources. Fix applies starting next week's plan — this week left as-is.
-
 ### Aug 31–Sep 6, 2026 (Mon–Sun; in progress as of Sep 4 — plan made via app, backfilled here; eating out Fri)
 - Mon: Sesame Crusted Salmon + Soba + Greens
 - Tue: Spinach Ricotta Pasta (quick, small portion)
