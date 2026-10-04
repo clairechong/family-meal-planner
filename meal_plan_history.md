@@ -9,6 +9,17 @@ Track dinner rotation so new plans avoid repeating meals used in recent weeks.
 
 ## History (most recent first)
 
+### Sep 28–Oct 4, 2026 (Mon–Sun; plan made via app, backfilled here; eating out Fri)
+- Mon: Veggie bowl with farro and egg (double) (local)
+- Tue: Beef Stir Fry + Rice Noodles (with peppers, snow peas, carrots) (family recipe)
+- Wed: Herb Roasted Cauliflower with Shiitake Mushrooms + French Lentils (local)
+- Thu: Mediterranean Pasta with Greens (local) ✗ not a hit — do not repeat
+- Fri: Eating Out
+- Sat: Hearty Chicken & Corn Chowder + bread (local) ✓ hit — keep in rotation
+- Sun: Cajun Tilapia with Broccoli and Brown Rice (local)
+
+⚠️ Partner feedback (logged Oct 4): app seemed to recommend almost only local-drive recipes rather than a mix of local + web sources — likely an overcorrection from the Sep 21–27 fix that added ~15 local recipes into the app's source file to fix under-repetition. See [[feedback_meal_variety_rules]] in memory — flagged to check the app's source balance.
+
 ### Sep 21–27, 2026 (Mon–Sun; plan made via app; eating out Sat)
 - Mon: Pasta (family recipe)
 - Tue: Baked Chicken Drumsticks + cauli mashed potatoes + roasted carrots
